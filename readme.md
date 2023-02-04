@@ -1,1 +1,1 @@
-https://ismet0665.github.io/JavaScript-Projeler/Guess-The-Numbers/
+https://ismet0665.github.io/Guess-The-Numbers/
