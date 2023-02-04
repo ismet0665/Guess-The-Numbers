@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #FF5F5D; */
+  /* background-color: #161f30; */
+  color: white;
+  /* background-color: #FF9A8B; */
+  background-image: linear-gradient(
+    90deg,
+    #ff9a8b 0%,
+    #ff6a88 55%,
+    #ff99ac 100%
+  );
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+  gap: 2rem;
+}
+#sayi {
+  width: 5rem;
+  height: 4rem;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+  text-align: center;
+  font-size: 2rem;
+}
+.tahmin {
+  display: flex;
+  /* padding-right: 2rem; */
+  gap: 2rem;
+}
+.btn,
+.reset {
+  height: 4rem;
+  width: 5rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  background-color: #faacc4;
+  color: black;
+}
+.btn:hover,
+.reset:hover {
+  background-color: black;
+  color: #faacc4;
+}
+/* fontawesome daki iconları font-size ile boyutlandırıyoruz. */
+.heartRed {
+  font-size: 2rem;
+  color: red;
+}
+
+.heartBlack {
+  font-size: 2rem;
+  color: black;
+}
+
+#sonuc {
+  font-size: 2rem;
+  color: white;
+}
+.hak {
+  text-align: center;
+}
+.hak-h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
